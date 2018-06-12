@@ -6,6 +6,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.2.0] - 2018-06-12
+
+### Changed
+- Upgraded rake dependency from 10.0 to 12.3
+
+### Fixed
+- Corrected changelog url in gemspec.
+
 ## [0.1.0] - 2018-06-11
 
 ### Added
