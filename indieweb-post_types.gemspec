@@ -15,7 +15,7 @@ Gem::Specification.new do |spec|
 
   spec.metadata = {
     'bug_tracker_uri' => 'https://github.com/srushe/indieweb-post_types/issues',
-    'changelog_uri'   => 'https://github.com/srushe/indieweb-post_types/CHANGELOG.md',
+    'changelog_uri'   => 'https://github.com/srushe/indieweb-post_types/blob/master/CHANGELOG.md',
     'homepage_uri'    => 'https://github.com/srushe/indieweb-post_types/'
   }
 
@@ -27,7 +27,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_development_dependency 'bundler', '~> 1.16'
-  spec.add_development_dependency 'rake', '~> 10.0'
+  spec.add_development_dependency 'rake', '~> 12.3'
   spec.add_development_dependency 'rspec', '~> 3.0'
   spec.add_development_dependency 'rubocop'
 end
