@@ -15,7 +15,7 @@ Gem::Specification.new do |spec|
 
   spec.metadata = {
     'bug_tracker_uri' => 'https://github.com/srushe/indieweb-post_types/issues',
-    'changelog_uri'   => 'https://github.com/srushe/indieweb-post_types/CHANGELOG.md',
+    'changelog_uri'   => 'https://github.com/srushe/indieweb-post_types/blob/master/CHANGELOG.md',
     'homepage_uri'    => 'https://github.com/srushe/indieweb-post_types/'
   }
 
