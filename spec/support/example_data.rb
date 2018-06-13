@@ -20,56 +20,56 @@ module ExampleData
 
   def rsvp_examples
     %w[
-      rsvp-aaron.json
-      rsvp-aaronmultiple.json
-      rsvp-tantek.json
+      items/rsvp-aaron.json
+      items/rsvp-aaronmultiple.json
+      items/rsvp-tantek.json
     ]
   end
 
   def reply_examples
     %w[
-      reply-aaron.json
-      reply-aaronmultiple.json
+      items/reply-aaron.json
+      items/reply-aaronmultiple.json
     ]
   end
 
   def repost_examples
     %w[
-      repost-aaron.json
+      items/repost-aaron.json
     ]
   end
 
   def like_examples
     %w[
-      like-aaron.json
+      items/like-aaron.json
     ]
   end
 
   def video_examples
     %w[
-      video-aaron.json
-      video-shane.json
+      items/video-aaron.json
+      items/video-shane.json
     ]
   end
 
   def photo_examples
     %w[
-      photo-aaron.json
-      photo-tantek.json
+      items/photo-aaron.json
+      items/photo-tantek.json
     ]
   end
 
   def article_examples
     %w[
-      article-aaron.json
-      article-tantek.json
+      items/article-aaron.json
+      items/article-tantek.json
     ]
   end
 
   def note_examples
     %w[
-      note-aaron.json
-      note-aaron2.json
+      items/note-aaron.json
+      items/note-aaron2.json
     ]
   end
 end
