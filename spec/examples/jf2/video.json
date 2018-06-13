@@ -1,0 +1,20 @@
+{
+  "type": "entry",
+  "name": "...and down! #pdx #travel",
+  "category": [
+      "pdx",
+      "travel",
+      "travel",
+      "pdx"
+  ],
+  "video": "https://aaronparecki.com/2015/07/21/16/video.mp4",
+  "photo": "https://aaronparecki.com/2015/07/21/16/photo.jpeg",
+  "poster": "https://aaronparecki.com/2015/07/21/16/photo.jpeg",
+  "url": "https://aaronparecki.com/2015/07/21/16/travel-pdx",
+  "author": "https://aaronparecki.com/",
+  "published": "2015-07-21T20:45:59-07:00",
+  "content": {
+      "html": "...and down! <a href=\"https://aaronparecki.com/tag/pdx\">#<span class=\"p-category\">pdx</span></a> <a href=\"https://aaronparecki.com/tag/travel\">#<span class=\"p-category\">travel</span></a>",
+      "text": "...and down! #pdx #travel"
+  }
+}

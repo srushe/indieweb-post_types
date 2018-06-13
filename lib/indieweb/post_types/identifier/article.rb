@@ -30,7 +30,7 @@ module Indieweb
               if content.is_a?(Hash)
                 content.any? { |_key, value| !value.strip.empty? }
               else
-                content.any? { |entry| !entry.strip.empty? }
+                !content.strip.empty?
               end
             end
           end
@@ -42,11 +42,7 @@ module Indieweb
           def non_empty?(field, data)
             return false unless data.key?(field)
 
-            if data[field].is_a?(Hash)
-              data[field].any? { |_key, value| !value.strip.empty? }
-            else
-              Array(data[field]).any? { |entry| !entry.strip.empty? }
-            end
+            Array(data[field]).any? { |entry| !entry.strip.empty? }
           end
 
           def non_empty_content_or_summary(data)
@@ -73,12 +69,7 @@ module Indieweb
           end
 
           def first_non_empty_for(field, data)
-            if data[field].is_a?(Hash)
-              possibles = data[field].reject { |_, value| value.strip.empty? }
-              possibles.values.first
-            else
-              Array(data[field]).find { |entry| !entry.strip.empty? }
-            end
+            Array(data[field]).find { |entry| !entry.strip.empty? }
           end
         end
       end

@@ -2,6 +2,8 @@ RSpec.describe Indieweb::PostTypes do
   let(:default_identifiers) { described_class.default_identifiers }
 
   context 'with the default identifiers' do
+    before { described_class.reset_configuration! }
+
     it 'lists the identifiers correctly' do
       expect(described_class.identifiers).to eq(default_identifiers)
     end
@@ -33,7 +35,8 @@ RSpec.describe Indieweb::PostTypes do
     end
 
     before do
-      Indieweb::PostTypes.configure do |config|
+      described_class.reset_configuration!
+      described_class.configure do |config|
         config.insert_identifier(klass: CatchAllIdentifier,
                                  before: described_class.identifiers.first)
       end

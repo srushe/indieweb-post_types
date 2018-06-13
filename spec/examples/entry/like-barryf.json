@@ -1,0 +1,22 @@
+{
+    "type": [
+        "h-entry"
+    ],
+    "properties": {
+        "like-of": [
+            "https://keithjgrant.com/posts/2018/06/resilient-declarative-contextual/"
+        ],
+        "category": [
+            "css"
+        ],
+        "captures": [
+
+        ],
+        "entry-type": [
+            "like"
+        ],
+        "published": [
+            "2018-06-12T15:00:15Z"
+        ]
+    }
+}

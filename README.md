@@ -100,3 +100,10 @@ The gem is available as open source under the terms of the [MIT License](https:/
 ## Code of Conduct
 
 Everyone interacting in the Indieweb::PostTypes project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/srushe/indieweb-post_types/blob/master/CODE_OF_CONDUCT.md).
+
+## Credits
+
+A number of the spec example files are from...
+
+* https://github.com/indieweb/post-type-discovery-tests
+* https://github.com/grantcodes/jf2-examples
