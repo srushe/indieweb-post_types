@@ -9,7 +9,7 @@ module Indieweb
 
           def identifier_from(data)
             return unless data.key?('rsvp')
-            return unless valid_value?(data['rsvp'][0])
+            return unless valid_value?(Array(data['rsvp'])[0])
 
             'rsvp'
           end

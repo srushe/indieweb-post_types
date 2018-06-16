@@ -18,6 +18,26 @@ RSpec.describe Indieweb::PostTypes::Identifier::Photo do
           it { expect(described_class.type_from(data)).to be_nil }
         end
       end
+
+      context 'due to the url not being acceptable' do
+        let(:data) do
+          json_data_for('entry/photo-tantek.json').tap do |data|
+            data['properties']['photo'] = url
+          end
+        end
+
+        context 'because it is not valid' do
+          let(:url) { 'https://foo bar.com/' }
+
+          it { expect(described_class.type_from(data)).to be_nil }
+        end
+
+        context 'due to the url not being http or https' do
+          let(:url) { 'ftp://example.com/' }
+
+          it { expect(described_class.type_from(data)).to be_nil }
+        end
+      end
     end
   end
 end

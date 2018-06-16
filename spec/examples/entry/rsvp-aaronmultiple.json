@@ -1,0 +1,51 @@
+{
+    "type": [
+        "h-entry"
+    ],
+    "properties": {
+        "location": [
+            {
+                "type": [
+                    "h-card"
+                ],
+                "properties": {
+                    "name": [
+                        "Portland, Oregon, USA"
+                    ],
+                    "latitude": [
+                        "45.506746"
+                    ],
+                    "longitude": [
+                        "-122.654171"
+                    ]
+                },
+                "value": "Portland, Oregon, USA"
+            }
+        ],
+        "rsvp": [
+            "yes"
+        ],
+        "name": [
+            "I'll be there!"
+        ],
+        "in-reply-to": [
+            "http://known.kevinmarks.com/2014/indieweb-xoxo-breakfast",
+            "http://aaronparecki.com/events/2014/09/13/1/indieweb-xoxo-breakfast"
+        ],
+        "url": [
+            "https://aaronparecki.com/2014/09/08/6/"
+        ],
+        "author": [
+            "https://aaronparecki.com/"
+        ],
+        "published": [
+            "2014-09-08T12:54:08-07:00"
+        ],
+        "content": [
+            {
+                "html": "I'll be there!",
+                "value": "I'll be there!"
+            }
+        ]
+    }
+}
