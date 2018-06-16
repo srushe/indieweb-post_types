@@ -1,3 +1,7 @@
+require 'simplecov'
+
+SimpleCov.start
+
 require 'bundler/setup'
 require 'indieweb/post_types'
 require 'json'
@@ -17,5 +21,6 @@ RSpec.configure do |config|
     c.syntax = :expect
   end
 
-  config.include ExampleData
+  config.extend ExampleData
+  config.include JsonFor
 end

@@ -6,6 +6,15 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.3.0] - 2018-06-16
+
+### Changed
+- Re-organised spec data files.
+- Increased test coverage.
+
+### Fixed
+- Restore accidently commented-out RSVP code.
+
 ## [0.2.0] - 2018-06-12
 
 ### Changed

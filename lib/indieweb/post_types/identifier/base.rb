@@ -31,7 +31,7 @@ module Indieweb
         end
 
         def url_from_citation(data)
-          data['properties']['url'][0]
+          data['properties'] ? data['properties']['url'][0] : data['url']
         end
       end
     end
