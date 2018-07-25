@@ -70,6 +70,7 @@ module ExampleData
   def photo_examples
     %w[
       entry/photo-aaron.json
+      entry/photo-micropub-rocks.json
       entry/photo-tantek.json
       items/photo-aaron.json
       items/photo-tantek.json

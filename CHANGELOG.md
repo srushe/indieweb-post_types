@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.3.1] - 2018-07-25
+
+### Fixed
+- Fix identification of photo entry from micropub.rocks examples.
+
 ## [0.3.0] - 2018-06-16
 
 ### Changed
