@@ -10,13 +10,13 @@ Gem::Specification.new do |spec|
 
   spec.summary       = 'IndieWeb Post Type Discovery for Microformats 2 JSON.'
   spec.description   = 'IndieWeb Post Type Discovery for Microformats 2 JSON.'
-  spec.homepage      = 'https://github.com/srushe/indieweb-post_types'
+  spec.homepage      = 'https://code.deeden.co.uk/indieweb-post_types'
   spec.license       = 'MIT'
 
   spec.metadata = {
-    'bug_tracker_uri' => 'https://github.com/srushe/indieweb-post_types/issues',
-    'changelog_uri'   => 'https://github.com/srushe/indieweb-post_types/blob/master/CHANGELOG.md',
-    'homepage_uri'    => 'https://github.com/srushe/indieweb-post_types/'
+    'bug_tracker_uri' => 'https://code.deeden.co.uk/indieweb-post_types/issues',
+    'changelog_uri'   => 'https://code.deeden.co.uk/indieweb-post_types/changelog',
+    'homepage_uri'    => 'https://code.deeden.co.uk/indieweb-post_types'
   }
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
